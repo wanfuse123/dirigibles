@@ -119,7 +119,7 @@ for g in gases:
 #        go.Scatter( 
 #        x=temp_range[t],y=mass_range[g], #np.array(mass_range),
 #        x=plotpointsX[x],y=mass_range[g] 
-#        text=(plotpointsX,mass_range[g]) 
+#        text=(plotpointsX[x],mass_range[g]) 
 #        textfont=dict(size=15,color='white'), 
 #        textposition="top right",
 #        line_shape='spline',
